@@ -1,0 +1,82 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "surface-tint": "#9bd847",
+        "outline": "#8c937e",
+        "on-tertiary-fixed": "#191c1e",
+        "surface-container-low": "#181c1f",
+        "tertiary-fixed-dim": "#c4c7c9",
+        "primary-container": "#86c232",
+        "surface-container-highest": "#313538",
+        "surface-container-lowest": "#0b0f11",
+        "primary-fixed-dim": "#9bd847",
+        "background": "#101417",
+        "inverse-on-surface": "#2d3134",
+        "on-secondary-fixed-variant": "#2f4f00",
+        "primary-fixed": "#b5f560",
+        "tertiary-container": "#afb1b3",
+        "surface-container-high": "#262a2d",
+        "surface-bright": "#363a3d",
+        "secondary": "#a8d471",
+        "error-container": "#93000a",
+        "on-primary-container": "#2e4c00",
+        "on-surface-variant": "#c2c9b2",
+        "on-error": "#690005",
+        "tertiary-fixed": "#e1e3e5",
+        "surface-dim": "#101417",
+        "on-tertiary": "#2e3133",
+        "secondary-fixed-dim": "#a8d471",
+        "primary": "#a0df4c",
+        "inverse-surface": "#e0e3e7",
+        "on-secondary-fixed": "#102000",
+        "secondary-container": "#365a00",
+        "on-surface": "#e0e3e7",
+        "on-background": "#e0e3e7",
+        "on-secondary": "#1f3700",
+        "surface-container": "#1c2023",
+        "on-primary": "#203600",
+        "on-error-container": "#ffdad6",
+        "on-primary-fixed-variant": "#304f00",
+        "on-tertiary-container": "#414446",
+        "surface": "#101417",
+        "inverse-primary": "#426900",
+        "on-tertiary-fixed-variant": "#444749",
+        "tertiary": "#cacccf",
+        "secondary-fixed": "#c3f18a",
+        "on-secondary-container": "#a4d06d",
+        "outline-variant": "#424937",
+        "error": "#ffb4ab",
+        "surface-variant": "#313538",
+        "on-primary-fixed": "#112000"
+      },
+      borderRadius: {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      spacing: {
+        "base": "8px",
+        "md": "24px",
+        "lg": "48px",
+        "gutter": "24px",
+        "xs": "4px",
+        "margin-desktop": "40px",
+        "margin-mobile": "16px",
+        "sm": "12px",
+        "xl": "80px"
+      },
+      fontFamily: {
+        sora: ["Sora", "sans-serif"]
+      }
+    },
+  },
+  plugins: [],
+}

@@ -1,0 +1,42 @@
+{
+  "object": "instagram",
+  "entry": [
+    {
+      "id": "IG_123",
+      "time": 1710000100000,
+      "messaging": [
+        {
+          "sender": { "id": "IGSID_456" },
+          "recipient": { "id": "IG_123" },
+          "timestamp": 1710000100123,
+          "message": {
+            "mid": "m_instagram_001",
+            "reply_to": { "mid": "m_instagram_original" },
+            "attachments": [
+              {
+                "type": "image",
+                "payload": { "url": "https://example.invalid/test-image.jpg" }
+              }
+            ]
+          }
+        },
+        {
+          "sender": { "id": "IG_123" },
+          "recipient": { "id": "IGSID_456" },
+          "timestamp": 1710000100223,
+          "message": {
+            "mid": "m_instagram_echo",
+            "text": "Outbound message",
+            "is_echo": true
+          }
+        },
+        {
+          "sender": { "id": "IGSID_456" },
+          "recipient": { "id": "IG_123" },
+          "timestamp": 1710000100323,
+          "read": { "mid": "m_instagram_original" }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+
+# Logs and local tooling
+*.log
+.DS_Store
+Thumbs.db
+
+# Local editor settings and database exports
+.idea/
+.vscode/
+*.dump
+*.backup
+*.tsbuildinfo
