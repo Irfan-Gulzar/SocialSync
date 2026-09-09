@@ -1,2 +1,0 @@
-# SocialSync Pro
-SocialSync Pro is a full-stack omnichannel communication platform that centralizes customer messages from Facebook, Instagram, WhatsApp, and TikTok into a single real-time dashboard. The system uses webhook-based integrations, a normalized backend architecture, and WebSocket-powered live updates to help businesses manage conversations efficiently from one unified workspace. Built with scalability and modularity in mind, the platform also provides a strong foundation for future AI-powered automation and workflow integrations.
